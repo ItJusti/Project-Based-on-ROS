@@ -28,5 +28,6 @@ Disaat 2 provider tersebut mengirimkan sebuah data, ada sebuah pengguna bernama 
 - Run the ROS nodes using 'rosrun' command.
 </details>
 
-**Output code**
+**Output Image**
+
 ![Output Images](Images/Output.png)
