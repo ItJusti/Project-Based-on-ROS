@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import rospy
+import rospy as ros
 from std_msgs.msg import String, Int16
 
 
@@ -29,7 +29,7 @@ def message():
 
 
 if  __name__ == '__main__':
-    rospy.init_node('budi_node', anonymous=True)
-    rospy.Subscriber('smartguys', String, smartguys)
-    rospy.Subscriber('xs', Int16, xs)
-    rospy.spin()
+    ros.init_node('budi_node', anonymous=True)
+    ros.Subscriber('smartguys', String, smartguys)
+    ros.Subscriber('xs', Int16, xs)
+    ros.spin()
