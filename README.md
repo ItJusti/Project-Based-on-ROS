@@ -3,9 +3,6 @@
     <h3></h3>
 </div>
 
-<div align  ='center'>
-
-
 <details>
   <summary> Project Based Learning ROS 1 </summary>
 
