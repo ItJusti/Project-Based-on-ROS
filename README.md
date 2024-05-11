@@ -21,7 +21,6 @@ Disaat 2 provider tersebut mengirimkan sebuah data, ada sebuah pengguna bernama 
 <details>
   <summary> Setup </summary>
 
-- Clone this repository to your local machine.
 - Make sure you have ROS Noetic installed and configured properly.
 - Navigate to the directory containing the ROS nodes.
 - Build the ROS package using 'catkin_make'.
