@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="robot" type="smartguys.py" name="smartguys_publisher"/>
+    <node pkg="robot" type="xs.py" name="xs_publisher"/>
+    <node pkg="robot" type="BUDI.py" name="budi_subscriber"/>
+</launch>
